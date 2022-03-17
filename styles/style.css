@@ -161,7 +161,7 @@ main section .main-button:hover {
 
 footer {
   background-color: #000000;
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   z-index: 2;
 }
