@@ -58,6 +58,7 @@ nav ul {
   flex-direction: row;
   letter-spacing: 0.2px;
   width: auto;
+  z-index: 10;
 }
 
 nav ul li {
@@ -357,9 +358,9 @@ footer::before {
     right: 0%;
     min-width: 60vw;
     height: 100vh;
-    z-index: 1;
+    z-index: 4;
     background-color: var(--header-background-clr);
-    margin-top: 60px;
+    margin-top: 90px;
     transition: 300ms ease-in;
   }
 
@@ -487,5 +488,33 @@ footer::before {
 @media only screen and (max-width: 1200px) {
   .more-help {
     transform: translateX(0px);
+  }
+}
+
+/*Mobile design*/
+
+@media only screen and (max-width: 460px) {
+  main section .title {
+    font-size: 3rem;
+    transform: translateX(0px);
+    text-indent: 0;
+  }
+
+  main section p {
+    font-size: var(--main-font-size-mobile);
+    text-align: center;
+  }
+
+  footer {
+    height: 140vh;
+  }
+
+  footer::after {
+    left: 110%;
+  }
+
+  nav ul {
+    z-index: 4;
+    margin-top: 90px;
   }
 }
