@@ -342,8 +342,9 @@ footer::before {
 
   html,
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
+
   .burger {
     display: block;
     z-index: 5;
@@ -510,7 +511,7 @@ footer::before {
   }
 
   footer {
-    height: 140vh;
+    height: 160vh;
   }
 
   footer::after {
