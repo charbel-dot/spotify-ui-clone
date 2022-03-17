@@ -340,6 +340,10 @@ footer::before {
 @media only screen and (max-width: 768px) {
   /*Nav styling */
 
+  html,
+  body {
+    overflow: hidden;
+  }
   .burger {
     display: block;
     z-index: 5;
@@ -435,7 +439,7 @@ footer::before {
   }
 
   footer {
-    height: 180vh;
+    height: 200vh;
   }
 
   .container > img {
@@ -491,7 +495,7 @@ footer::before {
   }
 }
 
-/*Mobile design*/
+/*Small mobile design*/
 
 @media only screen and (max-width: 460px) {
   main section .title {
